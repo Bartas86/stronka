@@ -30,10 +30,10 @@ body
 { 
 	width: 100%;
 	padding: 10px 0;
-	background-color: #804040;
+	background-color: #A54F4F;
 	text-align: center;
-	border-top: 1px solid #751b1b;
-	border-bottom: 1px solid #751b1b;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
 }
 
 .content
@@ -156,12 +156,14 @@ ol > li:first-child
 
 ol > li:hover
 {
-	background-color: #cf6969;
+	
+	/*background-color: #cf6969;*/
 }
 
 ol > li:hover > a
 {
-	color: #451717;
+	/*color: green;*/
+	box-shadow: 1px 1px 1px black;
 }
 
 ol > li > ul
