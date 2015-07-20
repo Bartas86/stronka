@@ -157,13 +157,13 @@ ol > li:first-child
 ol > li:hover
 {
 	
-	/*background-color: #cf6969;*/
+	background-color: #cf6969;
 }
 
 ol > li:hover > a
 {
 	/*color: green;*/
-	box-shadow: 1px 1px 1px black;
+font-weight: 700;
 }
 
 ol > li > ul
