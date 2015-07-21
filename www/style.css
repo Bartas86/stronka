@@ -25,13 +25,11 @@ body {
 
 .nav {
     width: 100%;
-    
     padding: 10px 0;
     /*	background-color: #A54F4F;*/
     text-align: center;
     border-top: 5px solid #ffffff;
     border-bottom: 5px solid #ffffff;
- 
 }
 
 .content {
@@ -136,12 +134,12 @@ ol > li:first-child {
 }
 
 ol > li:hover {
-    background-color: #cf6969;
+     
 }
 
 ol > li:hover > a {
     /*color: green;*/
-    font-weight: 700;
+    font-weight: 800;
 }
 
 ol > li > ul {
@@ -170,3 +168,8 @@ ol > li > ul > li:hover {
 ol > li > ul > li:hover > a {
     color: #451717;
 }
+.hide{
+	display: none;
+}
+.show{
+	display: block;
