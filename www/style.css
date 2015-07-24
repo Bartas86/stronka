@@ -1,4 +1,4 @@
-body {
+    body {
     /*  background-color: #303030;*/
     background-color: black;
     color: #ffffff;
@@ -28,8 +28,8 @@ body {
     padding: 10px 0;
     /*	background-color: #A54F4F;*/
     text-align: center;
-    border-top: 5px solid #ffffff;
-    border-bottom: 5px solid #ffffff;
+    border-top: 5px double #0193DE;
+    border-bottom: 5px double #DA251E;
 }
 
 .content {
@@ -133,9 +133,7 @@ ol > li:first-child {
     border-left: 1px dashed #751b1b;
 }
 
-ol > li:hover {
-     
-}
+ol > li:hover {}
 
 ol > li:hover > a {
     /*color: green;*/
@@ -155,21 +153,24 @@ ol > li:hover > ul {
 }
 
 ol > li > ul > li {
-    background-color: #cf6969;
+    /*background-color: #cf6969;*/
+    background-color: #0193DE;
     position: relative;
     z-index: 100;
     border-top: 1px dashed #751b1b;
 }
 
 ol > li > ul > li:hover {
-    background-color: #c34f4f;
+    background-color: #0193DE;
 }
 
 ol > li > ul > li:hover > a {
     color: #451717;
 }
-.hide{
-	display: none;
+
+.hide {
+    display: none;
 }
-.show{
-	display: block;
+
+.show {
+    display: block;
