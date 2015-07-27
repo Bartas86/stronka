@@ -1,4 +1,4 @@
-    body {
+#body-main {
     /*  background-color: #303030;*/
     background-color: black;
     color: #ffffff;
@@ -7,16 +7,16 @@
     margin: 0 !important;
 }
 
-.wrapper {
+.wrapper-main {
     width: 100%;
 }
 
-.header {
+.header-main {
     width: 100%;
     padding: 40px 0;
 }
 
-.logo {
+.logo-main {
     width: 450px;
     font-size: 48px;
     margin-left: auto;
@@ -174,3 +174,16 @@ ol > li > ul > li:hover > a {
 
 .show {
     display: block;
+}
+
+.col-md-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-right: 1px solid silver;
+    text-align: center;
+}
+
+.btn-default {
+    width: 100px;
+    color: blue;
+}
